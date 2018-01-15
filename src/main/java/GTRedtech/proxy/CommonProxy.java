@@ -20,6 +20,7 @@ public class CommonProxy {
         int ModEntitiyID;
 
         public void preInit(FMLPreInitializationEvent e) {
+            //Materials
 
             //Mobs
 

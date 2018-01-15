@@ -1,12 +1,17 @@
 package GTRedtech;
 
 
+
 import GTRedtech.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import gregtech.api.enums.Dyes;
+import gregtech.api.enums.MaterialBuilder;
+import gregtech.api.enums.Materials;
+import gregtech.api.enums.TextureSet;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -23,11 +28,12 @@ public class GTRedtech {
 
     @SidedProxy(clientSide = "GTRedtech.proxy.CommonProxy",serverSide = "GTRedtech.proxy.ServerProxy" )
     public static CommonProxy proxy;
+    public static Materials AGrowthSolution = new MaterialBuilder(859, TextureSet.SET_FLUID, "Growth Solution A").addCell().addFluid().setRGB(20, 0, 0).setColor(Dyes.dyePink).constructMaterial();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
         proxy.preInit(e);
-    }
+        }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent e) {
