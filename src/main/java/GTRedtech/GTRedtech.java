@@ -7,6 +7,10 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 @Mod(modid = "gtredtech", version = "0.1", name = "GT Redtech",dependencies = "required-after:gregtech;")
 public class GTRedtech {
@@ -35,6 +39,13 @@ public class GTRedtech {
         proxy.postInit(e);
     }
 
+    public static CreativeTabs tabGtredtech = new CreativeTabs("tabGtredtech") {
+        @Override
+        public Item getTabIconItem(){
+                return new ItemStack(Items.rotten_flesh).getItem();
+            }
+
+    };
 
 }
 

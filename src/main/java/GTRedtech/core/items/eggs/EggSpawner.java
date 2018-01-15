@@ -22,6 +22,7 @@ import net.minecraft.world.World;
 import java.util.List;
 
 import static GTRedtech.GTRedtech.MODID;
+import static GTRedtech.GTRedtech.tabGtredtech;
 
 public class EggSpawner extends ItemMonsterPlacer {
     @SideOnly(Side.CLIENT)
@@ -42,7 +43,7 @@ public class EggSpawner extends ItemMonsterPlacer {
     {
         setHasSubtypes(false);
         maxStackSize = 64;
-        setCreativeTab(CreativeTabs.tabMisc);
+        setCreativeTab(tabGtredtech);
         setEntityToSpawnName(parEntityToSpawnName);
         colorBase = parPrimaryColor;
         colorSpots = parSecondaryColor;
