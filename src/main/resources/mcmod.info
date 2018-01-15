@@ -1,0 +1,16 @@
+[
+{
+  "modid": "GTRedtech",
+  "name": "GT Redtech",
+  "description": "The mentaly insane meets the austism of Gregtech",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Redmage21"],
+  "credits": "Blood Asp, Akalus",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["Gregtech"]
+}
+]
