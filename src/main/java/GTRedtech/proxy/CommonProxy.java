@@ -4,6 +4,7 @@ package GTRedtech.proxy;
 import GTRedtech.GTRedtech;
 import GTRedtech.Gregtech.Wires;
 import GTRedtech.core.items.eggs.EggSpawner;
+import GTRedtech.core.loaders.preload.GTR_Loader_MetaTileEntities;
 import GTRedtech.core.mobs.MalformedCreeper;
 import GTRedtech.core.rendering.entities.RenderMalformedCreeper;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -37,6 +38,7 @@ public class CommonProxy {
 
             RenderingRegistry.registerEntityRenderingHandler(MalformedCreeper.class, new RenderMalformedCreeper());
 
+            GTR_Loader_MetaTileEntities.run();
 
         }
 

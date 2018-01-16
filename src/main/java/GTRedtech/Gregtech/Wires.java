@@ -12,7 +12,7 @@ public class Wires {
     private static final String aTextWire2 = " Wire";
     private static final String aTextCable2 = " Cable";
     private final static boolean aBoolConst_0 = false;
-    private static int BaseWireID = 20065;
+    private static int BaseWireID = 12001;
 
     public static void run()
     {run1();
