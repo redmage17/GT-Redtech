@@ -5,5 +5,5 @@ import net.minecraftforge.fluids.FluidStack;
 
 public interface IGTR_RecipeAdder {
     @Deprecated
-    boolean EmbryonicGrowthChamberRecipe(ItemStack var1, ItemStack var2, FluidStack var3, ItemStack var4, int var5, int var6);
+    public boolean addEmbryonicGrowthChamberRecipe(final ItemStack aInput1, final ItemStack aInput2,final ItemStack aInput3,final ItemStack aInput4,final ItemStack aInput5,final ItemStack aInput6, final FluidStack aFluidInput, final FluidStack aFluidOutput, final ItemStack aOutput1,final ItemStack aOutput2, int aDuration, final int aEUt);
 }
