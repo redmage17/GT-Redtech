@@ -16,6 +16,7 @@ eclipse/config/splash.properties
 .gradle/2.0/taskArtifacts/fileSnapshots.bin
 .gradle/2.0/taskArtifacts/fileHashes.bin
 .gradle/2.0/taskArtifacts/cache.properties.lock
+<<<<<<< HEAD
 C:\Users\imcintire\Documents\Java\GT-Redtech\eclipse
 *.gz
 eclipse/saves/New World/data/villages.dat
@@ -40,3 +41,9 @@ eclipse/options.txt
 eclipse/saves/New World/data/villages.dat
 *.dat
 .idea/workspace.xml
+=======
+.gradle/2.0/taskArtifacts/cache.properties
+.idea/gradle.xml
+.idea/workspace.xml
+GT-Redtech.iml
+>>>>>>> 37a8f55e1f462158d7329d71630a5fa01e8e41ee
