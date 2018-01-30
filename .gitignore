@@ -16,3 +16,27 @@ eclipse/config/splash.properties
 .gradle/2.0/taskArtifacts/fileSnapshots.bin
 .gradle/2.0/taskArtifacts/fileHashes.bin
 .gradle/2.0/taskArtifacts/cache.properties.lock
+C:\Users\imcintire\Documents\Java\GT-Redtech\eclipse
+*.gz
+eclipse/saves/New World/data/villages.dat
+eclipse/saves/New World/DIM-1/data/villages.dat
+eclipse/saves/New World/data/villages.dat
+eclipse/saves/New World/DIM-1/data/villages.dat
+eclipse/saves/New World/DIM1/data/villages.dat
+*.dat
+*.dat_old
+*.mca
+*.lock
+eclipse/saves/New World/level.dat
+.idea/workspace.xml
+eclipse/config/GregTech/MaterialProperties.cfg
+eclipse/config/GregTech/Recipes.cfg
+eclipse/crash-reports/crash-2018-01-15_13.27.52-client.txt
+eclipse/crash-reports/crash-2018-01-15_13.29.28-client.txt
+eclipse/config/GregTech/MaterialProperties.cfg
+eclipse/config/GregTech/Recipes.cfg
+eclipse/GregTech.lang
+eclipse/options.txt
+eclipse/saves/New World/data/villages.dat
+*.dat
+.idea/workspace.xml
