@@ -2,6 +2,7 @@ package GTRedtech;
 
 
 
+import GTRedtech.api.interfaces.internal.IGTR_RecipeAdder;
 import GTRedtech.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -36,6 +37,7 @@ public class GTRedtech {
         }
 
     @Mod.EventHandler
+    @Deprecated
     public void init(FMLInitializationEvent e) {
         proxy.init(e);
     }
