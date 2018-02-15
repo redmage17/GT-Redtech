@@ -47,14 +47,12 @@ public class CommonProxy {
 
 @Deprecated
         public  void init(FMLInitializationEvent e) {
-            Wires.run();
-
 
         }
 
         public void postInit(FMLPostInitializationEvent e) {
-GTR_MachineRecipeLoader.run();
 
+            GTR_MachineRecipeLoader.run();
 
 
         }
