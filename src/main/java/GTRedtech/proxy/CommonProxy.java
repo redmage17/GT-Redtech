@@ -4,6 +4,7 @@ package GTRedtech.proxy;
 import GTRedtech.GTRedtech;
 import GTRedtech.Gregtech.Wires;
 import GTRedtech.core.items.eggs.EggSpawner;
+import GTRedtech.core.loaders.postload.GTR_MachineRecipeLoader;
 import GTRedtech.core.loaders.preload.GTR_Loader_MetaTileEntities;
 import GTRedtech.core.mobs.MalformedCreeper;
 import GTRedtech.core.rendering.entities.RenderMalformedCreeper;
@@ -44,15 +45,14 @@ public class CommonProxy {
 
 
 
-
+@Deprecated
         public  void init(FMLInitializationEvent e) {
-            Wires.run();
 
         }
 
         public void postInit(FMLPostInitializationEvent e) {
 
-
+            GTR_MachineRecipeLoader.run();
 
 
         }
