@@ -29,7 +29,6 @@ public class GTRedtech {
 
     @SidedProxy(clientSide = "GTRedtech.proxy.CommonProxy",serverSide = "GTRedtech.proxy.ServerProxy" )
     public static CommonProxy proxy;
-    public static Materials AGrowthSolution = new MaterialBuilder(859, TextureSet.SET_FLUID, "Growth Solution A").addCell().addFluid().setRGB(20, 0, 0).setColor(Dyes.dyePink).constructMaterial();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
