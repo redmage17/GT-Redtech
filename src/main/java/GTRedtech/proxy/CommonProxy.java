@@ -2,7 +2,6 @@ package GTRedtech.proxy;
 
 
 import GTRedtech.GTRedtech;
-import GTRedtech.Gregtech.Wires;
 import GTRedtech.core.items.eggs.EggSpawner;
 import GTRedtech.core.loaders.postload.GTR_MachineRecipeLoader;
 import GTRedtech.core.loaders.preload.GTR_Loader_Item_Block_And_Fluid;
@@ -36,11 +35,11 @@ public class CommonProxy {
     }
 
 
-    public  Fluid addFluid(String s, String aName, String aLocalized, Materials aMaterial, short[] mRGBa, int i, int aState, ItemStack stack, ItemStack itemStack, int aTemperatureK) {
+    public static Fluid addFluid(String s, String aName, String aLocalized, Materials aMaterial, short[] mRGBa, int i, int aState, ItemStack stack, ItemStack itemStack, int aTemperatureK) {
         return addFluid(aName, aLocalized, aMaterial, aState, aTemperatureK, null, null, 0);
     }
 
-    public  Fluid addFluid(String aName, String aLocalized, Materials aMaterial, int aState, int aTemperatureK, ItemStack aFullContainer,
+    public static Fluid addFluid(String aName, String aLocalized, Materials aMaterial, int aState, int aTemperatureK, ItemStack aFullContainer,
                                  ItemStack aEmptyContainer, int aFluidAmount) {
         return addFluid(aName, aName.toLowerCase(Locale.ENGLISH), aLocalized, aMaterial, null, aState, aTemperatureK, aFullContainer, aEmptyContainer, aFluidAmount);
     }

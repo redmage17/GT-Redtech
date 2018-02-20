@@ -3,6 +3,7 @@ package GTRedtech;
 
 
 import GTRedtech.api.interfaces.internal.IGTR_RecipeAdder;
+import GTRedtech.core.loaders.preload.GTR_Loader_Item_Block_And_Fluid;
 import GTRedtech.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -29,6 +30,7 @@ public class GTRedtech {
 
     @SidedProxy(clientSide = "GTRedtech.proxy.CommonProxy",serverSide = "GTRedtech.proxy.ServerProxy" )
     public static CommonProxy proxy;
+
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
