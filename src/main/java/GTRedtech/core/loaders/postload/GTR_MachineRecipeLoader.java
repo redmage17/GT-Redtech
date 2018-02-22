@@ -19,6 +19,7 @@ public class GTR_MachineRecipeLoader  {
          */
         CORE.RA.addEmbryonicGrowthChamberRecipe(new ItemStack[]{ItemList.Circuit_Chip_Stemcell.get(1)}, GTR_Materials.GrowthSolutionA.getFluid(1000L), ItemList.Circuit_Chip_Stemcell.get(4), 400, 16);
 
-        GT_Values.RA.addMixerRecipe(Materials.Calcium.getDust(1), GT_OreDictUnificator.get(OrePrefixes.food, 10), GT_Utility.getIntegratedCircuit(1), GT_Values.NI, Materials.AceticAcid.getFluid(2000L), GT_Values.NF, Materials.CalciumAcetateSolution.getCells(1), 80, 16);
+
     }
+
 }
