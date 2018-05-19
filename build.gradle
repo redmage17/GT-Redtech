@@ -41,7 +41,18 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
 }
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
+
+
+idea { module { inheritOutputDirs = true } }
+
+configurations {
+    provided
+    embedded
+    compile.extendsFrom provided, embedded
+}
 processResources
 {
     // this will ensure that this task is redone when the versions change.
